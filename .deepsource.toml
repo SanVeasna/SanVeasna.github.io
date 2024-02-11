@@ -1,0 +1,29 @@
+version = 1
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "vue",
+    "react"
+  ]
+  environment = [
+    "nodejs",
+    "jquery",
+    "jest",
+    "vitest",
+    "mongo"
+  ]
+
+[[analyzers]]
+name = "sql"
+
+[[analyzers]]
+name = "php"
+
+[[analyzers]]
+name = "java"
+
+  [analyzers.meta]
+  runtime_version = "18"
