@@ -29,13 +29,18 @@
     <link rel="stylesheet" href="css/style.min.css" type="text/css" />
 
     <style>
-
+.custom-form{
+        bottom: 26px !important;
+    }
 @media (max-width: 760px) {
     .about-image {
         width: 400px !important;
     }
     .about-image img{
         margin-top: 16px !important;
+    }
+    .custom-form{
+        bottom: 0px !important;
     }
 }
 @media (max-width: 460px) {
@@ -1384,7 +1389,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7 ">
-                        <div class="custom-form mt-4 " style="bottom: 26px !important;">
+                        <div class="custom-form mt-4 " style="">
                             <form method="post" name="myForm" onsubmit="return validateForm()">
 
                                 <h6 class="mb-0 text-muted">Let's talk</h6>
